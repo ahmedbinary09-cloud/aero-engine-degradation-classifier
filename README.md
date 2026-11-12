@@ -123,8 +123,9 @@ fly launch --no-deploy --copy-config --name <your-unique-app-name>   # uses fly.
 fly deploy
 python stream_client.py --url https://<your-unique-app-name>.fly.dev/predict
 ```
+I don't have a deployment url or image, because it is asking for my card info, and I don't have one that works. 
+The website keeps rejecting the ones that I add.
 
-Deployed service: **<add URL here>**  ·  Screenshot / video of the stream: **<add link here>**
 
 ## Results
 
