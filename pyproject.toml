@@ -1,0 +1,25 @@
+[project]
+name = "rul-health-monitor"
+version = "0.1.0"
+description = "Engine remaining-useful-life prediction and health-state API (NASA C-MAPSS FD001)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "pydantic>=2.12",
+    "scikit-learn>=1.5",
+    "scipy>=1.13",
+    "xgboost>=2.1",
+    "pandas>=2.2",
+    "numpy>=1.26",
+]
+
+[dependency-groups]
+dev = [
+    "requests>=2.32",
+    "jupyter>=1.1",
+    "ipykernel>=6.29",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+]
